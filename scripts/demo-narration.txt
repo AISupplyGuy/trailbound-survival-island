@@ -1,0 +1,19 @@
+What if practice felt less like homework, and more like surviving a mysterious island?
+
+This is Trailbound: Survival Island, a mobile-first learning adventure for children ages eight to twelve. The player creates an explorer, survives a storm, and meets Scout, a friendly guide with a broken rescue radio.
+
+The island is the game board. Every location holds a real problem that moves the story forward. Here at Stormbreak Beach, the player needs rope from the wreckage. The math is not presented as a worksheet. It is the thing standing between the explorer and their next move.
+
+A wrong answer never costs a life or takes progress away. Scout offers a small, contextual hint and lets the learner try again. When the player succeeds, the answer changes the world: supplies arrive, experience grows, and a new trail opens.
+
+Behind Scout is a privacy-first adaptive engine called Scout Sense. It uses Bayesian knowledge tracing to estimate mastery from correct answers, mistakes, and retries. The next challenge is selected to be supportive without announcing that difficulty changed. The model runs entirely on the device. No account, student record, voice sample, or personal information is sent away.
+
+The reward immediately becomes useful. Players turn island resources into tools, improve their camp, earn badges, and unlock seven connected locations. Eight quests cover math, science, reading comprehension, ecosystems, patterns, measurement, fractions, and logic. Challenge content is structured separately from the interface, so new regions can reuse the same quest, reward, and adaptive-learning systems.
+
+The grown-up view translates play into understandable learning signals. It shows attempts, success rate, places discovered, and mastery estimates by skill, while clearly explaining that these are supportive signals—not grades or diagnoses.
+
+Trailbound is already a functional vertical slice with persistent progress, responsive mobile controls, original procedural music, accessible feedback, crafting, camp upgrades, and a complete rescue storyline.
+
+Next, I would add original character animation, visual manipulatives, consented cross-device saves, and authoring tools for educators.
+
+Trailbound makes education serve the adventure—so children practice because they want to discover what happens next.

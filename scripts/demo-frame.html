@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1920, initial-scale=1">
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; }
+    body { background: #0a6a78; color: white; font-family: Arial, sans-serif; position: relative; }
+    .sun { position: absolute; width: 620px; height: 620px; border-radius: 50%; background: #ffcf68; right: -220px; top: -260px; box-shadow: 0 0 0 45px rgba(255,207,104,.13); }
+    .island { position: absolute; width: 520px; height: 360px; border-radius: 50%; background: #76b85c; right: -100px; bottom: -170px; border: 48px solid #f4ca70; opacity: .72; }
+    .phone-well { position: absolute; left: 70px; top: 20px; width: 630px; height: 1040px; border-radius: 46px; background: rgba(4,47,58,.58); box-shadow: inset 0 0 0 2px rgba(255,255,255,.12); }
+    .copy { position: absolute; left: 790px; top: 108px; width: 900px; }
+    h1 { font-family: "Arial Rounded MT Bold", Arial, sans-serif; color: #fff2cc; font-size: 82px; letter-spacing: -3px; margin: 0; }
+    h2 { font-family: "Arial Rounded MT Bold", Arial, sans-serif; font-size: 42px; margin: 4px 0 24px; }
+    .sub { color: #c4edf1; font-size: 31px; margin: 0; }
+    .rule { width: 105px; height: 8px; border-radius: 8px; background: #ffb547; margin: 82px 0 44px; }
+    .promise { font-family: "Arial Rounded MT Bold", Arial, sans-serif; color: #ffb547; font-size: 51px; line-height: 1.08; margin: 0 0 42px; max-width: 770px; }
+    ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 24px 48px; width: 760px; }
+    li { font-size: 29px; font-weight: 700; display: flex; align-items: center; gap: 14px; }
+    li::before { content: ""; width: 17px; height: 17px; border-radius: 50%; background: #ffb547; box-shadow: 0 0 0 7px rgba(255,181,71,.15); }
+    .url { position: absolute; left: 790px; bottom: 105px; color: #fff2cc; font-family: "Arial Rounded MT Bold", Arial, sans-serif; font-size: 26px; }
+    .note { position: absolute; left: 790px; bottom: 62px; color: rgba(255,255,255,.68); font-size: 19px; }
+  </style>
+</head>
+<body>
+  <div class="sun"></div>
+  <div class="island"></div>
+  <div class="phone-well"></div>
+  <section class="copy">
+    <h1>TRAILBOUND</h1>
+    <h2>SURVIVAL ISLAND</h2>
+    <p class="sub">An AI-powered learning adventure</p>
+    <div class="rule"></div>
+    <p class="promise">Education hidden inside an adventure children choose to play.</p>
+    <ul>
+      <li>Adventure first</li>
+      <li>Adaptive by design</li>
+      <li>Private by default</li>
+      <li>Mobile first</li>
+    </ul>
+  </section>
+  <div class="url">trailbound-survival-island.vercel.app</div>
+  <div class="note">Playable now · No account required</div>
+</body>
+</html>

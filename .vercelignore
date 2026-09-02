@@ -1,0 +1,7 @@
+output/
+scripts/
+*.mp4
+*.webm
+*.wav
+*.aiff
+*.mp3

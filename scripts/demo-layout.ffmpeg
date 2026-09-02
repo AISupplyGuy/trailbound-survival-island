@@ -1,0 +1,21 @@
+color=c=0x0A6A78:s=1920x1080:d=169[bg];
+[0:v]scale=540:980:force_original_aspect_ratio=decrease,pad=570:1010:(ow-iw)/2:(oh-ih)/2:color=0xFFFDF6[phone];
+[bg]drawbox=x=70:y=20:w=630:h=1040:color=0x073E4A@0.55:t=fill[base];
+[base][phone]overlay=x=100:y=35[framed];
+[framed]drawtext=fontfile='/System/Library/Fonts/Supplemental/Arial Rounded Bold.ttf':text='TRAILBOUND':fontcolor=0xFFF2CC:fontsize=78:x=790:y=115,
+drawtext=fontfile='/System/Library/Fonts/Supplemental/Arial Rounded Bold.ttf':text='SURVIVAL ISLAND':fontcolor=white:fontsize=42:x=795:y=205,
+drawtext=fontfile='/System/Library/Fonts/Supplemental/Arial.ttf':text='An AI-powered learning adventure':fontcolor=0xBEEAF0:fontsize=31:x=795:y=270,
+drawtext=fontfile='/System/Library/Fonts/Supplemental/Arial Rounded Bold.ttf':text='CREATE AN EXPLORER':fontcolor=0xFFB547:fontsize=48:x=795:y=420:enable='between(t,0,28)',
+drawtext=fontfile='/System/Library/Fonts/Supplemental/Arial Rounded Bold.ttf':text='LEARNING INSIDE\nTHE STORY':fontcolor=0xFFB547:fontsize=48:line_spacing=12:x=795:y=410:enable='between(t,28,55)',
+drawtext=fontfile='/System/Library/Fonts/Supplemental/Arial Rounded Bold.ttf':text='SUPPORTIVE\nFAILURE':fontcolor=0xFFB547:fontsize=48:line_spacing=12:x=795:y=410:enable='between(t,55,78)',
+drawtext=fontfile='/System/Library/Fonts/Supplemental/Arial Rounded Bold.ttf':text='ADAPTIVE AI':fontcolor=0xFFB547:fontsize=48:x=795:y=420:enable='between(t,78,108)',
+drawtext=fontfile='/System/Library/Fonts/Supplemental/Arial Rounded Bold.ttf':text='REWARDS DRIVE\nPROGRESS':fontcolor=0xFFB547:fontsize=48:line_spacing=12:x=795:y=410:enable='between(t,108,140)',
+drawtext=fontfile='/System/Library/Fonts/Supplemental/Arial Rounded Bold.ttf':text='VISIBLE LEARNING\nSIGNALS':fontcolor=0xFFB547:fontsize=48:line_spacing=12:x=795:y=410:enable='between(t,140,169)',
+drawtext=fontfile='/System/Library/Fonts/Supplemental/Arial.ttf':text='Adventure first':fontcolor=white:fontsize=31:x=835:y=590,
+drawtext=fontfile='/System/Library/Fonts/Supplemental/Arial.ttf':text='Adaptive by design':fontcolor=white:fontsize=31:x=835:y=650,
+drawtext=fontfile='/System/Library/Fonts/Supplemental/Arial.ttf':text='Private by default':fontcolor=white:fontsize=31:x=835:y=710,
+drawtext=fontfile='/System/Library/Fonts/Supplemental/Arial.ttf':text='Mobile first':fontcolor=white:fontsize=31:x=835:y=770,
+drawtext=fontfile='/System/Library/Fonts/Supplemental/Arial Rounded Bold.ttf':text='trailbound-survival-island.vercel.app':fontcolor=0xFFF2CC:fontsize=25:x=795:y=930[outv];
+[1:a]adelay=5000:all=1,volume=1.25[voice];
+[2:a]volume=0.28,afade=t=out:st=164:d=5[music];
+[voice][music]amix=inputs=2:duration=longest:dropout_transition=2,loudnorm=I=-16:TP=-1.5:LRA=11[aout]
