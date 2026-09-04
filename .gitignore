@@ -1,6 +1,7 @@
 node_modules/
 .next/
 .vercel/
+.playwright-cli/
 out/
 output/
 .DS_Store
