@@ -55,7 +55,7 @@ Wrong answers never remove progress. Scout offers a first hint, then a stronger 
 
 Generative AI was used as a directed coding and design assistant during implementation. The adaptive learner model itself is deterministic and runs locally; it does not call a generative model.
 
-Third-party open-source software: Next.js, React, TypeScript, Zustand, Framer Motion, Lucide React, ESLint, and their transitive dependencies under their respective permissive licenses. Fonts are served through Next.js from Google Fonts: Nunito and Bowlby One SC under the SIL Open Font License. No real student data was used, and the product does not collect biometric information.
+Third-party open-source software: Next.js (MIT), React and React DOM (MIT), TypeScript (Apache-2.0), Zustand (MIT), Framer Motion (MIT), Lucide React (ISC), Playwright (Apache-2.0; development/demo tooling only), and ESLint (MIT). Optional dependencies are omitted from installation and deployment; the application does not install or use Sharp/libvips. The interface uses a system font stack and bundles no font files. Unicode emoji characters are rendered by the user's browser or operating system; no emoji artwork or font files are bundled. No real student data was used, and the product does not collect biometric information.
 
 ## Intentionally left for phase two
 
