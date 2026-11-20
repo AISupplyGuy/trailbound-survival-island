@@ -4,6 +4,8 @@ Trailbound is a playable, privacy-first learning adventure for ages 8–12. A st
 
 This is a hackathon vertical slice, not a screen mockup. A complete run includes onboarding, an animated story, eight sequential quests, adaptive challenges, seven unlockable locations, rewards, crafting, five camp upgrades, achievements, persistence, and a separate parent progress view.
 
+Built by [Zachary Elbode](https://www.aisupplyguy.net/) (AI Supply Guy).
+
 ## Run locally
 
 Requirements: Node.js 20.9 or newer.
